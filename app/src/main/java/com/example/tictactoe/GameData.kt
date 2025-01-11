@@ -3,8 +3,11 @@ package com.example.tictactoe
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 
-object  GameData {
+object GameData {
+    private var _gameModel:MutableLiveData<GameModel> = MutableLiveData()
+    var gameModel : LiveData<GameModel> = _gameModel
 
-    private var _gameModle : MutableLiveData<GameModle>  = MutableLiveData()
-    var gameModle : LiveData<GameModle> = _gameModle
+    fun saveGameModel(model : GameModel){
+        _gameModel.postValue(model)
+    }
 }

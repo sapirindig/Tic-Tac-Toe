@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F1DABF"
     android:orientation="vertical"
     tools:context=".GameActivity">
 
@@ -44,6 +45,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_0"
             android:tag="0"
+            android:backgroundTint="#362417"
             tools:text="X"/>
         <Button
             android:layout_width="match_parent"
@@ -52,6 +54,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_1"
             android:tag="1"
+            android:backgroundTint="#362417"
             tools:text="X"/>
         <Button
             android:layout_width="match_parent"
@@ -60,6 +63,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_2"
             android:tag="2"
+            android:backgroundTint="#362417"
             tools:text="X"/>
         <Button
             android:layout_width="match_parent"
@@ -68,6 +72,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_3"
             android:tag="3"
+            android:backgroundTint="#362417"
             tools:text="X"/>
         <Button
             android:layout_width="match_parent"
@@ -76,6 +81,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_4"
             android:tag="4"
+            android:backgroundTint="#362417"
             tools:text="X"/>
         <Button
             android:layout_width="match_parent"
@@ -84,6 +90,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_5"
             android:tag="5"
+            android:backgroundTint="#362417"
             tools:text="X"/>
         <Button
             android:layout_width="match_parent"
@@ -92,6 +99,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_6"
             android:tag="6"
+            android:backgroundTint="#362417"
             tools:text="X"/>
         <Button
             android:layout_width="match_parent"
@@ -100,6 +108,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_7"
             android:tag="7"
+            android:backgroundTint="#362417"
             tools:text="X"/>
         <Button
             android:layout_width="match_parent"
@@ -108,6 +117,7 @@
             android:textSize="60sp"
             android:id="@+id/btn_8"
             android:tag="8"
+            android:backgroundTint="#362417"
             tools:text="X"/>
 
 
@@ -119,6 +129,8 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="20dp"
+    android:textColor="#362417"
+    android:backgroundTint="#92817A"
     android:text="Start game"
     android:id="@+id/start_game_btn"/>
 
